@@ -1,0 +1,45 @@
+\subsection*{extra null vector}
+no = \o = \vec e = \begin{matrix}(1 & 0 & 0 & 0) \end{matrix} : \text{the origin}\\
+
+ni = \infty = \vec e_{12} \begin{matrix}(0 & 0 & 0 & 1) \end{matrix} : \text{the infinite point}\\
+
+\hat{p}  \in \mathbb E^2 \\
+\hat{p} = x \vec e_1 + y \vec e_2 = \begin{pmatrix}x \\ y \end{pmatrix}\\
+
+p \in \mathbb C^4 \\
+p = no + p +\frac{1}{2} p^2 ni = \begin{pmatrix} 1 \\ x \\ y \\ (x^2+y^2)/2 \end{pmatrix}\\
+
+e成分が1の超平面とe_12を軸とする単位超放物面の交差
+・単位放物面上にある→回転に対して大きくならないという制約？
+
+\hat{p}  \in \mathbb E^2 \dot{=} p \in \mathbb C^4 \\
+
+\subsection*{circle and line are trivector}
+c_{ijk} = p_i \wedge p_j \wedge p_k\\
+
+f_{ijk}(\hat{p})= c \cdot p\\ : \text{circle equation}\\
+
+l_{ij} = p_i \wedge p_j \wedge \infty\\ :\text
+
+f_{ij}(\hat{p})= l \cdot p\\ : \text{line equation}\\
+
+\subsection*{different solution}
+
+f_{ijk}(\hat{p}) = \begin{vmatrix}
+              1 & x_i & y_i & (x_i^2+y_i^2)/2 \\
+              1 & x_j & y_j & (x_j^2+y_j^2)/2 \\
+              1 & x_k & y_k & (x_k^2+y_k^2)/2 \\
+              1 & x & y & (x^2+y^2)/2 
+           \end{vmatrix}\\
+
+f_ij(\hat{p}) = \begin{vmatrix}
+              0 & 0 & 0 & 1 \\
+              1 & x_j & y_j & (x_j^2+y_j^2)/2 \\
+              1 & x_k & y_k & (x_k^2+y_k^2)/2 \\
+              1 & x & y & (x^2+y^2)/2 
+           \end{vmatrix}\\
+              = \begin{vmatrix}
+              1 & x_j & y_j  \\
+              1 & x_k & y_k \\
+              1 & x & y
+           \end{vmatrix}
